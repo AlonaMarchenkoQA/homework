@@ -1,5 +1,12 @@
 package com.playtika.courses.homework1;
 
+//Задание 1.
+//        Написать программу решающую следующие уравнения. Переменные x,y,z,n инициализируется перед решением уравнения.
+//        Каждое решение оформить в отдельном статическом методе.
+//        x - (y + 123) / z * n  		=> считаем в long
+//        (x + (50 - y * z) / n) - x 	=> считаем в int
+//        x / (y * (z - 1) - 564) + n 	=> считаем в float
+//        -x / -y + z / (n + 15) 		=> считаем в double
 
 public class Task1 {
 
@@ -26,7 +33,6 @@ public class Task1 {
     }
 
     private static int equation2(double x, double y, double z, double n) {
-
         return (int) ((x + (50 - y * z) / n) - x);
     }
 
