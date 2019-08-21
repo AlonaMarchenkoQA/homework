@@ -11,7 +11,7 @@ package com.playtika.courses.homework2;
 
 public class Task3 {
     public static void main(String[] args) {
-        int totalInterviews = countInterviews(8);
+        int totalInterviews = countInterviews(10);
         System.out.println(totalInterviews);
     }
 
