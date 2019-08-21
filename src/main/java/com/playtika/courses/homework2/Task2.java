@@ -14,8 +14,8 @@ public class Task2 {
     }
 
     private static void calculateMinMaxValue(long number){
-        long minValue = 10;
-        long maxValue = -1;
+        long minValue = 10L;
+        long maxValue = -1L;
 
         while (number != 0) {
             long currentValue = number % 10;
