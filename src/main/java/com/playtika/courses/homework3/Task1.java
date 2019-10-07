@@ -9,6 +9,9 @@ import java.util.Scanner;
 
 public class Task1 {
 
+    // если ввести символы с пробелами - программа считает некорректно (e.g -- nppp pn)
+    //  и вцелом, можно использовать метод reverse() у SrtringBuilder
+    // предварительно убрать пробелы в строке, а потом сравнить ее с собой же, только в обратном направлении
     private static boolean checkPolindrome(String word) {
         int checksCount = word.length() / 2;
         for(int i = 0; i < checksCount; i++) {
