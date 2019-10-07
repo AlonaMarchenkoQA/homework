@@ -20,6 +20,8 @@ public class Task2 {
         return result;
     }
 
+    // так же компактнее будет использовать метод StringBuilder reverse()
+    
     private static String reverseWord(String word) {
         StringBuilder sb = new StringBuilder();
         for(int i = word.length() - 1; i >= 0; i--) {
