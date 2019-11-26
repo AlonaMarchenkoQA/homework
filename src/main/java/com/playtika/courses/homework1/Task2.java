@@ -12,6 +12,8 @@ package com.playtika.courses.homework1;
 
 public class Task2 {
 
+    // Т.к в задании было сказано сделать -  Число задается в параметре статического метода, 
+    // то нужно цикл вынести в отдельный статический метод, а в методе main вызвать этот метод и в параметре передать число.     
     public static void main(String[] args) {
         int number = 45685;
         for (int i = 10000; i > 0; i /= 10) {
