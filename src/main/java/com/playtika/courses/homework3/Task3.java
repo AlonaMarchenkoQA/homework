@@ -13,6 +13,7 @@ public class Task3 {
         int[] randomNumbers = new int[len];
 
         for(int i = 0; i < len; i++) {
+            // как вариант, вместо ThreadLocalRandom, можно использовать класс Random
             int randomNumber = ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE);
             randomNumbers[i] = randomNumber;
         }
