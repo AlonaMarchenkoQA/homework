@@ -11,6 +11,8 @@ package com.playtika.courses.homework1;
 public class Task1 {
 
     public static void main(String[] args) {
+        
+        //Лучше сделать вот так double x = 1.0; или long x = 1L;
         double x = 1L;
         double y = 2L;
         double z = 3L;
