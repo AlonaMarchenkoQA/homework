@@ -10,6 +10,7 @@ package com.playtika.courses.homework1;
 //        Пример:
 //        Единичный вектор для вектора (5, 0, 0) => (1, 0, 0)
 
+//лучше вынести расчеты в отдельный метод static void calculateVectorLength (double x, double y, double z)
 public class Task3 {
     public static void main(String[] args) {
         int x = 5;
